@@ -1,14 +1,13 @@
-function loginHandler(e) {
+function confirmHandler(e) {
   e.preventDefault();
 
   console.log(e.target.email.value, e.target.pass.value);
 
   const data = {
     email: e.target.email.value,
-    password: e.target.pass.value,
   };
 
-  fetch('https://b0fb-82-215-90-18.eu.ngrok.io/auth/login', {
+  fetch('https://b0fb-82-215-90-18.eu.ngrok.io/auth/verify', {
     method: 'POST', // or 'PUT'
     headers: {
       'Content-Type': 'application/json',
@@ -16,9 +15,9 @@ function loginHandler(e) {
     body: JSON.stringify(data),
   })
     .then((data) => {
-      console.log("Success")
+      console.log('Success');
       window.location.href =
-        'https://mollyshop.s3.ap-southeast-1.amazonaws.com/html/confirm.html';
+        'file:///home/mukhammadjon/OS/Tour-Uz/web/main.html';
     })
     .catch((error) => {
       console.error('Error:', error);

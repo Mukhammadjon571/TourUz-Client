@@ -1,12 +1,11 @@
-function forgotPasswordHandler(e) {
+function forgotPassword(e) {
   e.preventDefault();
 
   const data = {
     email: e.target.email.value,
-    password: e.target.confirmpass.value,
   };
 
-  fetch('https://dd7c-82-215-90-18.eu.ngrok.io/auth/login', {
+  fetch('https://b0fb-82-215-90-18.eu.ngrok.io/auth/login', {
     method: 'POST', // or 'PUT'
     headers: {
       'Content-Type': 'application/json',
@@ -15,7 +14,7 @@ function forgotPasswordHandler(e) {
   })
     .then((data) => {
       window.location.href =
-        'file:///home/mukhammadjon/OS/Tour-Uz/web/confirm.html';
+        'file://home/mukhammadjon/OS/Tour-Uz/web/login.html';
     })
     .catch((error) => {
       console.error('Error:', error);

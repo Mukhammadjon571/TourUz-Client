@@ -5,7 +5,7 @@ function forgotPassword(e) {
     email: e.target.email.value,
   };
 
-  fetch(`https://044b-195-158-20-242.in.ngrok.io/auth/forgotPassword`, {
+  fetch(` https://5e9a-195-158-20-242.in.ngrok.io/auth/forgotPassword`, {
     method: 'POST', // or 'PUT'
     headers: {
       'Content-Type': 'application/json',

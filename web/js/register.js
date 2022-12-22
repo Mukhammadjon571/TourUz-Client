@@ -9,7 +9,7 @@ function registerHandler(e) {
     username: e.target.username.value,
   };
 
-  fetch(`https://044b-195-158-20-242.in.ngrok.io/auth/register`, {
+  fetch(`https://5e9a-195-158-20-242.in.ngrok.io/auth/register`, {
     method: 'POST', // or 'PUT'
     headers: {
       'Content-Type': 'application/json',

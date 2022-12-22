@@ -5,7 +5,7 @@ function forgotPassword(e) {
     email: e.target.email.value,
   };
 
-  fetch('https://b0fb-82-215-90-18.eu.ngrok.io/auth/login', {
+  fetch(`https://044b-195-158-20-242.in.ngrok.io/auth/forgotPassword`, {
     method: 'POST', // or 'PUT'
     headers: {
       'Content-Type': 'application/json',
@@ -13,8 +13,8 @@ function forgotPassword(e) {
     body: JSON.stringify(data),
   })
     .then((data) => {
-      window.location.href =
-        'file://home/mukhammadjon/OS/Tour-Uz/web/login.html';
+      console.log('Success');
+      window.location.href = `https://mollyshop.s3.ap-southeast-1.amazonaws.com/web/index.html`;
     })
     .catch((error) => {
       console.error('Error:', error);

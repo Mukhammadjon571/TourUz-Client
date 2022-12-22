@@ -9,7 +9,7 @@ function registerHandler(e) {
     username: e.target.username.value,
   };
 
-  fetch('https://b0fb-82-215-90-18.eu.ngrok.io/auth/register', {
+  fetch(`https://044b-195-158-20-242.in.ngrok.io/auth/register`, {
     method: 'POST', // or 'PUT'
     headers: {
       'Content-Type': 'application/json',
@@ -19,7 +19,7 @@ function registerHandler(e) {
     .then((data) => {
       console.log(data);
       window.location.href =
-        'https://mollyshop.s3.ap-southeast-1.amazonaws.com/html/confirm.html';
+        `https://mollyshop.s3.ap-southeast-1.amazonaws.com/web/confirm.html`;
     })
     .catch((error) => {
       console.error('Error:', error);

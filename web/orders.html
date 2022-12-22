@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+
+        <!--<link rel="stylesheet" href="css/icon-font.css">-->
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <link href="css/styles.css" rel="stylesheet" />
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+
+        <title>Tour-Uz</title>
+    </head>
+
+    <body class="sb-nav-fixed">
+        <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+            <!-- Navbar Brand-->
+            <a class="navbar-brand ps-5" href="mainpage.html">Tour-Uz</a>
+            <!-- Navbar Search-->
+            <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
+                <div class="input-group">
+                </div>
+            </form>
+            <!-- Navbar-->
+            <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><p class="dropdown-item"><b>Gentelman</b><br>example@gmail.com<br>Tashkent, Uzbekistan</p></li>
+                        
+                        <li><a class="dropdown-item" href="#"><b>Logout</b></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div id="layoutSidenav">
+            <div id="layoutSidenav_nav">
+                <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                <div class="sb-sidenav-menu">
+                    <div class="nav">
+                        <div class="sb-sidenav-menu-heading"></div>
+                        
+                        <a class="nav-link" href="favorites.html">
+                            <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                            Favorites
+                        </a>
+                        <a class="nav-link" href="orders.html">
+                            <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                            Orders
+                        </a>
+                        <a class="nav-link" href="about.html">
+                            <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                            About
+                        </a>
+                        <a class="nav-link" href="settings.html">
+                            <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                            Settings
+                        </a>
+                    </div>
+                    </div>
+                </nav>
+            </div>
+            <div id="layoutSidenav_content">
+                <main>
+
+                    <section class="section-tours" id="section-tours">
+                        <div class="u-center-text u-margin-bottom-big">
+                            <h2 class="heading-secondary">
+                                Most popular tours
+                            </h2>
+                        </div>
+        
+                        <div class="row">
+                            <div class="col-1-of-3">
+                               <div class="card">
+                                   <div class="card__side card__side--front">
+                                        <div class="card__picture card__picture--1">
+                                            &nbsp;
+                                        </div>
+                                        <h4 class="card__heading">
+                                            <span class="card__heading-span card__heading-span--1">The Sea Explorer</span>
+                                        </h4>
+                                        <div class="card__details">
+                                            <ul>
+                                                <li>3 day tours</li>
+                                                <li>Up to 30 people</li>
+                                                <li>2 tour guides</li>
+                                                <li>Sleep in cozy hotels</li>
+                                                <li>Difficulty: easy</li>
+                                            </ul>
+                                        </div>
+                                   </div>
+                                   <div class="card__side card__side--back card__side--back-1">
+                                        <div class="card__cta">
+                                            <div class="card__price-box">
+                                                <p class="card__price-only">Only</p>
+                                                <p class="card__price-value">$297</p>
+                                            </div>
+                                            <a href="#popup" class="btn btn--white">Book now!</a>
+                                        </div>
+                                    </div>
+                               </div>
+                            </div>
+        
+        
+                            <div class="col-1-of-3">
+                                <div class="card">
+                                    <div class="card__side card__side--front">
+                                        <div class="card__picture card__picture--2">
+                                            &nbsp;
+                                        </div>
+                                        <h4 class="card__heading">
+                                            <span class="card__heading-span card__heading-span--2">The Forest Hiker</span>
+                                        </h4>
+                                        <div class="card__details">
+                                            <ul>
+                                                <li>7 day tours</li>
+                                                <li>Up to 40 people</li>
+                                                <li>6 tour guides</li>
+                                                <li>Sleep in provided tents</li>
+                                                <li>Difficulty: medium</li>
+                                            </ul>
+                                        </div>
+        
+                                    </div>
+                                    <div class="card__side card__side--back card__side--back-2">
+                                        <div class="card__cta">
+                                            <div class="card__price-box">
+                                                <p class="card__price-only">Only</p>
+                                                <p class="card__price-value">$497</p>
+                                            </div>
+                                            <a href="#popup" class="btn btn--white">Book now!</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+        
+                            <div class="col-1-of-3">
+                                <div class="card">
+                                    <div class="card__side card__side--front">
+                                        <div class="card__picture card__picture--3">
+                                            &nbsp;
+                                        </div>
+                                        <h4 class="card__heading">
+                                            <span class="card__heading-span card__heading-span--3">The Snow Adventurer</span>
+                                        </h4>
+                                        <div class="card__details">
+                                            <ul>
+                                                <li>5 day tours</li>
+                                                <li>Up to 15 people</li>
+                                                <li>3 tour guides</li>
+                                                <li>Sleep in provided tents</li>
+                                                <li>Difficulty: hard</li>
+                                            </ul>
+                                        </div>
+        
+                                    </div>
+                                    <div class="card__side card__side--back card__side--back-3">
+                                        <div class="card__cta">
+                                            <div class="card__price-box">
+                                                <p class="card__price-only">Only</p>
+                                                <p class="card__price-value">$897</p>
+                                            </div>
+                                            <a href="#popup" class="btn btn--white">Book now!</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </section>
+                    <section class="section-tours" id="section-tours">
+                        <div class="row">
+                            <div class="col-1-of-3">
+                               <div class="card">
+                                   <div class="card__side card__side--front">
+                                        <div class="card__picture card__picture--1">
+                                            &nbsp;
+                                        </div>
+                                        <h4 class="card__heading">
+                                            <span class="card__heading-span card__heading-span--1">The Sea Explorer</span>
+                                        </h4>
+                                        <div class="card__details">
+                                            <ul>
+                                                <li>3 day tours</li>
+                                                <li>Up to 30 people</li>
+                                                <li>2 tour guides</li>
+                                                <li>Sleep in cozy hotels</li>
+                                                <li>Difficulty: easy</li>
+                                            </ul>
+                                        </div>
+                                   </div>
+                                   <div class="card__side card__side--back card__side--back-1">
+                                        <div class="card__cta">
+                                            <div class="card__price-box">
+                                                <p class="card__price-only">Only</p>
+                                                <p class="card__price-value">$297</p>
+                                            </div>
+                                            <a href="#popup" class="btn btn--white">Book now!</a>
+                                        </div>
+                                    </div>
+                               </div>
+                            </div>
+        
+        
+                            <div class="col-1-of-3">
+                                <div class="card">
+                                    <div class="card__side card__side--front">
+                                        <div class="card__picture card__picture--2">
+                                            &nbsp;
+                                        </div>
+                                        <h4 class="card__heading">
+                                            <span class="card__heading-span card__heading-span--2">The Forest Hiker</span>
+                                        </h4>
+                                        <div class="card__details">
+                                            <ul>
+                                                <li>7 day tours</li>
+                                                <li>Up to 40 people</li>
+                                                <li>6 tour guides</li>
+                                                <li>Sleep in provided tents</li>
+                                                <li>Difficulty: medium</li>
+                                            </ul>
+                                        </div>
+        
+                                    </div>
+                                    <div class="card__side card__side--back card__side--back-2">
+                                        <div class="card__cta">
+                                            <div class="card__price-box">
+                                                <p class="card__price-only">Only</p>
+                                                <p class="card__price-value">$497</p>
+                                            </div>
+                                            <a href="#popup" class="btn btn--white">Book now!</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+        
+                            <div class="col-1-of-3">
+                                <div class="card">
+                                    <div class="card__side card__side--front">
+                                        <div class="card__picture card__picture--3">
+                                            &nbsp;
+                                        </div>
+                                        <h4 class="card__heading">
+                                            <span class="card__heading-span card__heading-span--3">The Snow Adventurer</span>
+                                        </h4>
+                                        <div class="card__details">
+                                            <ul>
+                                                <li>5 day tours</li>
+                                                <li>Up to 15 people</li>
+                                                <li>3 tour guides</li>
+                                                <li>Sleep in provided tents</li>
+                                                <li>Difficulty: hard</li>
+                                            </ul>
+                                        </div>
+        
+                                    </div>
+                                    <div class="card__side card__side--back card__side--back-3">
+                                        <div class="card__cta">
+                                            <div class="card__price-box">
+                                                <p class="card__price-only">Only</p>
+                                                <p class="card__price-value">$897</p>
+                                            </div>
+                                            <a href="#popup" class="btn btn--white">Book now!</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+        
+                    </section>
+        
+                </main>
+        
+                <div class="popup" id="popup">
+                    <div class="popup__content">
+                        <div class="popup__left">
+                            <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img">
+                            <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img">
+                        </div>
+                        <div class="popup__right">
+                            <a href="#section-tours" class="popup__close">&times;</a>
+                            <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before booking</h3>
+                            <p class="popup__text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                Sed sed risus pretium quam. Aliquam sem et tortor consequat id. Volutpat odio facilisis mauris sit
+                                amet massa vitae. Mi bibendum neque egestas congue. Placerat orci nulla pellentesque dignissim enim
+                                sit. Vitae semper quis lectus nulla at volutpat diam ut venenatis. Malesuada pellentesque elit eget
+                                gravida cum sociis natoque penatibus et. Proin fermentum leo vel orci porta non pulvinar neque laoreet.
+                                Gravida neque convallis a cras semper. Molestie at elementum eu facilisis sed odio morbi quis. Faucibus
+                                vitae aliquet nec ullamcorper sit amet risus nullam eget. Nam libero justo laoreet sit. Amet massa
+                                vitae tortor condimentum lacinia quis vel eros donec. Sit amet facilisis magna etiam. Imperdiet sed
+                                euismod nisi porta.
+                            </p>
+                            <a href="#" class="btn btn--green">Book now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+        <script src="assets/demo/chart-area-demo.js"></script>
+        <script src="assets/demo/chart-bar-demo.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
+        <script src="js/datatables-simple-demo.js"></script>
+    </body>
+
+</html>

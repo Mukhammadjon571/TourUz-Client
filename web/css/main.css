@@ -198,7 +198,11 @@ iframe {
 }
 
 .login100-pic img {
-  max-width: 100%;
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  padding: 20px;
+  transform: translate(-5%, -20%);
 }
 
 

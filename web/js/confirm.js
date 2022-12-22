@@ -8,7 +8,7 @@ function confirmHandler(e) {
     email: localStorage.getItem('email'),
   };
 
-  fetch(` https://5e9a-195-158-20-242.in.ngrok.io/auth/verify`, {
+  fetch(`https://1615-195-158-20-242.in.ngrok.io/auth/verify`, {
     method: 'POST', // or 'PUT'
     headers: {
       'Content-Type': 'application/json',

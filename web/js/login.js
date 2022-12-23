@@ -9,7 +9,7 @@ function loginHandler(e) {
     password: e.target.pass.value,
   };
 
-  fetch(`https://1615-195-158-20-242.in.ngrok.io/auth/login`, {
+  fetch(`auth/login`, {
     method: 'POST', // or 'PUT'
     headers: {
       'Content-Type': 'application/json',
